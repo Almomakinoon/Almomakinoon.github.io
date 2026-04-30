@@ -194,7 +194,7 @@
     }
 
     .fake1 { transform: skew(-7deg); }
-    .fake2 { letter-spacing: 1px; }
+    .fake2 { transform: rotate(4deg); opacity: 0.9; }
     .fake3 { transform: rotate(-2deg); opacity: 0.8; }
 
     .message {
@@ -351,12 +351,12 @@
       <div class="grid">
         <div class="option" onclick="checkAnswer(this,false)">
           <span class="choice-label">1</span>
-          <div class="logo"><img src="/logos/1.png"></div>
+          <div class="logo fake1"><img src="/logos/1.png"></div>
         </div>
 
         <div class="option" onclick="checkAnswer(this,false)">
           <span class="choice-label">2</span>
-          <div class="logo"><img src="/logos/2.png"></div>
+          <div class="logo fake2"><img src="/logos/2.png"></div>
         </div>
 
         <div class="option" onclick="checkAnswer(this,true)">
